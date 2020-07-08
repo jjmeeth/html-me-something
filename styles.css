@@ -1,0 +1,80 @@
+:root {
+    --color-1:#5E90C2;
+    --color-2:#03ADD5;
+    --color-3:#00C9D0;
+    --color-4:#41E0B3;
+    --color-5:#A0F08D;
+    --color-6:#F9F871;
+}
+header {
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    padding-bottom: 25px;
+}
+body {
+    font: 75% georgia, sans-serif;
+    line-height: 1.88889;
+    color: white;
+    background: var(--color-1);
+}
+section {
+    outline:1px solid #F9F871;
+}
+p {
+    margin: 0px 25px 25px 25px;
+    text-align: justify;    
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer {
+    color: var(--color-5);
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    padding-top: 25px;
+}
+nav {
+    text-align: center;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+h1 {
+    color: var(--color-5);
+    background-color: var(--color-2);
+    text-align: center;
+    outline:3px solid #41E0B3;
+}
+h2 {
+    color: var(--color-6);
+    text-align: center;
+    background-color: var(--color-2);
+}
+ul {
+    color: var(--color-5);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #41E0B3;
+    border-radius: 10px;
+    padding: 5px;
+}
+figcaption {
+    text-align: center;
+    color: var(--color-4);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#gears {
+   opacity: 0.7;
+   text-shadow:2px 2px red;
+}
